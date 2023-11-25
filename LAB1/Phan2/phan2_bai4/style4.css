@@ -1,0 +1,100 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container{
+    display: grid;
+    width: 800px;
+    margin: 0px auto;
+    grid-template-rows: 50px 50px auto 50px;
+}
+
+#header{
+    display: flex;
+    background-color: #595959;
+    height: 50px;
+}
+
+#header h1{
+    margin: 1px 7px;
+    text-align: left;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto 1fr;
+    grid-column-gap: 15px;
+    padding-left: 50px;
+    background-color:  #0000cc;
+    align-items: center;
+}
+
+#menu a{
+    color: white;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 250px 550px;
+}
+
+#left{
+    display: grid;
+    grid-template-rows: 150px 150px auto;
+}
+
+#list1{
+    background-color: #ffff00;
+}
+
+#list2{
+    background-color: #595959;
+}
+#list1 ul, #list2 ul{
+    margin: 0px;
+}
+
+#left a{
+    color: blue;
+}
+
+#right{
+    display: grid;
+    grid-template-rows: auto 128px;
+}
+
+#right1{
+    padding: 10px 7px;
+    text-align: justify;
+}
+
+#right2{
+    display: grid;
+    grid-template-columns: 275px 275px;
+}
+
+#right2left{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    padding: 0 7px;
+    text-align: justify;
+}
+
+#right2right{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 0 7px;
+    text-align: justify;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+#footer h1{
+    margin-top: 3px;
+}

@@ -1,0 +1,74 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo img{
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1{
+    text-shadow: 5px 5px blue;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.first_letter{
+    font-size: 70px;
+}
+
+.bold_underline {
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration-line: underline;
+}
+.italic_underline{
+    font-style: italic;
+    text-decoration-line: underline;
+    font-size: x-large;
+}
+
+a.blue_link{
+    color: blue;
+}
+
+a.red_link{
+    color:red;
+}
+
+.red_dot{
+    color:red;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+.upcoming_classes table{
+    text-align: center;
+    width: 20%;
+}
+
+.upcoming_classes th, .upcoming_classes td{
+    height: 28px;
+}
+
+a.twitter{
+    color:#5F9EA0;
+    font-weight: bold;
+    text-decoration-line: none;
+    text-shadow: 2px 2px 3px black;
+}
+
+ul {
+    line-height: 200%;
+}
+
+
